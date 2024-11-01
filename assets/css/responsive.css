@@ -1,0 +1,123 @@
+
+    
+    /* LG Device :1700px. */
+    @media (min-width: 1600px) and (max-width: 1700px) {
+       
+    }
+    
+    /* LG Device :1600px. */
+    @media (min-width: 1500px) and (max-width: 1600px) {
+   
+    }
+
+    /* LG Device :1500px. */
+    @media (min-width: 1400px) and (max-width: 1500px) {
+
+    }
+
+    /* LG Device :1400px. */
+    @media (min-width: 1300px) and (max-width: 1400px) {
+
+    }
+
+    /* LG Device :1300px. */
+    @media (min-width: 1200px) and (max-width: 1300px) {
+
+        #twinkle_smtp_analytics .report_right_wrapper .report_right_top {
+            padding: 1px 40px 11px 24px;
+        }
+
+    }
+
+    /* MD Device :1200px. */
+    @media (min-width: 850px) and (max-width: 1200px) {
+
+        #twinkle_smtp_analytics .report_wrapper {
+            display: initial;
+        }
+
+        #twinkle_smtp_analytics .report_left_wrapper {
+            width: auto;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper {
+            width: auto;
+            padding: 30px 0px 0px 0px;
+        }  
+        
+    }
+
+    /* MD Device :850px. */
+    @media (min-width: 680px) and (max-width: 850px) {
+
+        #twinkle_smtp_analytics .report_right_wrapper .report_right_bottom .report_right_bottom_wrapper .box_style_two .wrapper {
+            padding-top: 34px;
+        }
+
+        #twinkle_smtp_analytics .report_wrapper {
+            display: initial;
+        }
+
+        #twinkle_smtp_analytics .report_left_wrapper {
+            width: auto;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper {
+            width: auto;
+            padding: 30px 0px 0px 0px;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper .report_right_bottom .report_right_bottom_wrapper .box_style_one {
+            padding: 19px 62px 28px 26px;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper .report_right_bottom .report_right_bottom_wrapper .box_style_two {
+            padding: 45px 90px 17px 36px;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper .report_right_bottom .report_right_bottom_wrapper .box_style_three {
+            padding: 13px 28px 28px 33px;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper .report_right_bottom {
+            padding-top: 30px;
+        }
+        
+    }
+
+    /* MD Device :680px. */
+    @media (min-width: 500px) and (max-width: 680px) {
+
+
+        #twinkle_smtp_analytics .report_wrapper {
+            display: initial;
+        }
+
+        #twinkle_smtp_analytics .report_left_wrapper {
+            width: auto;
+        }
+
+        #twinkle_smtp_analytics .report_right_wrapper {
+            width: auto;
+            padding: 30px 0px 0px 0px;
+        }
+        
+    }
+
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+       
+    }
+      
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+        
+    }
+
+    
+    /* Extra SM Small Device :550px. */
+    @media ( max-width: 576px ) { 
+
+    }
+    
+    

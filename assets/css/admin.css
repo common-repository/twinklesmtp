@@ -1,0 +1,1164 @@
+#wpbody{
+    background: #F0F5FF;
+    margin-left: -20px;
+    min-height: 100vh;
+    transition: 0.5s;
+    position: relative;
+}
+
+.twinkle_smtp_ml_30{
+    margin-left: 30px;
+}
+
+#twinkle_smtp_main {
+    font-size: 15px;
+    position: relative;
+}
+
+#twinkle_smtp_container{
+    padding: 50px 50px;
+}
+
+
+/* Start Header section */
+
+#twinkle_smtp_header {
+    background: #FFFFFF;
+    padding: 0px 0px 0px 70px;
+    height: 70px;
+}
+
+
+#twinkle_smtp_header{
+    display: flex;
+    align-items: center;
+}
+.twinkle_smtp_header_logo h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Roboto;
+}
+
+.twinkle_smtp_header_nav ul{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.twinkle_smtp_header_nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Roboto;
+    color: #050505;
+}
+
+.twinkle_smtp_header_nav ul li:hover{
+    color: #316BFF;
+}
+.twinkle_smtp_menue_active{
+    color: #316BFF !important;
+}
+
+/* End Header Section */
+
+
+/* Start Settings Tab */
+#twinkle_smtp_settings{
+   display: flex;
+   width: 100%;
+}
+
+#twinkle_smtp_settings-sidebar {
+    background-color: #FFFFFF;
+    padding: 0px 50px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px rgba(161, 176, 207, 0.0361753);
+    height: 500px;
+    width: 15%;
+}
+
+#twinkle_smtp_settings-sidebar .sidebar-wrapper h4 {
+   font-size: 24px; 
+   font-family: Roboto;
+}
+
+#twinkle_smtp_settings-sidebar .sidebar-wrapper ul {
+    list-style: none;
+    margin-top: 50px;
+}
+
+#twinkle_smtp_settings-sidebar .sidebar-wrapper ul li {
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    padding: 8px 18px 8px 30px;
+    border-radius: 20px;
+    width: 126px;
+}
+
+#twinkle_smtp_settings-sidebar .sidebar-wrapper ul li:hover {
+    background: #316BFF;
+    color: #FFFFFF;
+}
+.twinkle_smtp_settings_active{
+    background: #316BFF;
+    color: #FFFFFF;
+  }
+
+#twinkle_smtp_settings-content{
+    background: #fff;
+    border-radius: 8px;
+    padding: 50px 80px;
+    height: auto;
+    padding-bottom: 100px;
+    width: 85%;
+}
+
+.twinkle_smtp_col_8{
+    width: 83.33333333%;
+}
+
+#twinkle_smtp_analytics{
+    display: none;
+    background: #ffffff;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+#twinkle_smtp_sender_settings{
+    display: none;
+}
+
+
+/* Start twinkle settings */
+#twinkle_smtp_mail_settings{
+    padding-top: 140px;
+}
+
+.twinkle_smtp_form_group{
+    margin-top: 50px;
+}
+ .twinkle_smtp_form_group label{
+   color: #191D23;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+   display:block;
+}
+.twinkle_smtp_form_group .twinkle_smtp_form_control{
+    width: 100%;
+    padding: 8px 20px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+}
+.twinkle_smtp_form_group .force{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.twinkle_smtp_form_group .force input{
+   margin-top:0; 
+   border: 1px solid #BDCEF1;
+}
+.twinkle_smtp_form_group .force a.twinkle_smtp_tooltip{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #3C3F44;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* Start twinkle_smtp_ sender settings */
+.twinkle_smtp_mailer_input  input{
+   margin-top: 0;
+}
+
+.twinkle_smtp_mailer_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twinkle_smtp_mailer_design_img {
+    width: 160px;
+    height: 105px;
+    background-color: #F0F5FF;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #D8E4FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twinkle_smtp_mailer_design_img img{
+    height: 100%;
+}
+.twinkle_smtp_mailer_radio_input_wrapper{
+    margin-top: 10px;
+}
+
+.twinkle_smtp_mailer_radio_input_wrapper .label-text{
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 30px;
+}
+.twinkle_smtp_mailer_design_single{
+    margin-right: 13px;
+    margin-bottom: 30px;
+}
+
+.twinkle_smtp_mailer_radio_input_wrapper input[type=radio] {
+    border: 1px solid #8c8f948c;
+    background: #F0F5FF;
+    height: 18px;
+    width: 18px;
+}
+
+.twinkle_smtp_mailer_radio_input_wrapper input[type=radio]:checked{
+    border: 1px solid #316BFF;
+}
+
+.twinkle_smtp_mailer_image_border{
+    border: 1px solid #316BFF;
+}
+
+.twinkle_smtp_mailer_radio_input_wrapper input[type=radio]:checked::before {
+    width: 10px;
+    height: 10px;
+    top: 50%; right: 50%;
+    transform: translate(30%,29%);
+    margin: 0;
+    line-height: 0;
+    background-color: #316BFF;
+}
+
+#twinkle_smtp_mailer_default_content{
+    display: none;
+}
+#twinkle_smtp_mailer_sendinblue_content{
+    display: none;
+}
+#twinkle_smtp_mailer_smtp_content{
+    display: none;
+}
+#twinkle_smtp_mailer_amazan_content{
+    display: none;
+}
+
+.twinkle_smtp_sender_settings_tab_title{
+    margin-bottom: 0px;
+}
+
+.twinkle_smtp_sender_settings_tab_title h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #191D23;
+}
+
+#twinkle_smtp_mailer_content_wrapper{
+    margin-top: 50px;
+}
+
+/* Start smtp_mailer_default */
+
+.twinkle_smtp_mailer_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.twinkle_smtp_mailer_name h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;  
+    color: #1A1E26;
+}
+
+.twinkle_smtp_mailer_name a{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+.twinkle_smtp_mailer_sender_settings {
+    background-color: #F0F5FF;
+    padding: 17px 35px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+.twinkle_smtp_mailer_smtp_settings{
+    background-color: #F0F5FF;
+    padding: 17px 35px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.twinkle_smtp_mailer_settings_name h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.twinkle_smtp_radio_wrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+.twinkle_smtp_single_radio{
+    margin-left: 20px;
+}
+
+.twinkle_smtp_single_radio input[type=radio]:checked {
+    border: 1px solid #316BFF;
+}
+
+.twinkle_smtp_single_radio input[type=radio] {
+    border: 1px solid #8c8f948c;
+    background: #F0F5FF;
+    height: 18px;
+    width: 18px;
+}
+
+.twinkle_smtp_single_radio input[type=radio]:checked::before {
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 50%;
+    transform: translate(33%,32%);
+    margin: 0;
+    line-height: 0;
+    background-color: #316BFF;
+}
+
+.twinkle_smtp_form_submit  {
+    background: #316BFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: 0;
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #316BFF;
+    transition: 0.3s;
+}
+
+.twinkle_smtp_form_submit:hover {
+    background: #316bffc7;
+    border: 1px solid #316bffc7;
+}
+
+/* Start Mail test tab */
+
+
+#twinkle_smtp_email_test {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+#twinkle_smtp_email_test .form_top {
+    background: #F0F5FF;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+#twinkle_smtp_email_test .email_test_title h2 {
+    line-height: 0;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+#twinkle_smtp_email_test .twinkle_smtp_form_group:first-child {
+         margin-top: 0px;
+}
+
+#twinkle_smtp_email_test .form_top {
+         margin-top: 35px;
+}
+
+#twinkle_smtp_email_test .twinkle_smtp_form_group .email_hint {
+    font-size: 16px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+
+/* Start Module switcher */
+.twinkle_smtp_switcher_wrapper{
+    display: flex;
+    align-items:center;
+}
+
+.twinkle_smtp_switcher {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+  }
+  
+  .twinkle_smtp_switcher input {display:none;}
+  
+  .twinkle_smtp_switcher .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CDCADA;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .twinkle_smtp_switcher .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    top: 5.5px;
+    left: 6px;
+    right: 0px;
+    bottom: 1px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+  .twinkle_smtp_switcher input:checked + .slider {
+    background-color: #316BFF;
+  }
+  
+  .twinkle_smtp_switcher input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  .twinkle_smtp_switcher input:checked + .slider:before {
+    transform: translateX(37px);
+  }
+  
+  .twinkle_smtp_switcher .slider:after {
+    content: 'OFF';
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    top: 53%;
+    left: 65%;
+}
+
+
+.twinkle_smtp_switcher input:checked + .slider:after {
+    content:'ON';
+    top: 53%;
+    left: 35%;
+}
+
+.twinkle_smtp_switcher_wrapper .label{
+    color: #191D23;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 40px;
+}
+
+.twinkle_smtp_switcher_wrapper .switcher_hint{
+    font-size: 16px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+#twinkle_smtp_email_test .twinkle_smtp_form_submit{
+    margin-top: 20px;
+}
+
+/* Start  style Dashboard */
+
+#twinkle_smtp_analytics .report_wrapper{
+    display: flex;
+}
+
+#twinkle_smtp_analytics .report_left_wrapper{
+    width: 60%;
+    background-color: #F0F5FF;
+    border-radius: 20px;
+    padding: 30px 30px;
+    height: 100%;
+}
+
+#twinkle_smtp_analytics .report_right_wrapper {
+    width: 40%;
+    padding: 0px 0px 0px 30px;
+}
+
+#twinkle_smtp_analytics .report_wrapper  .report_left_wrapper .report_title h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top {
+    background-color: #F0F5FF;
+    border-radius: 20px;
+    padding: 10px 50px 20px 30px;
+}
+
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .title h4 {
+    color: #191D23;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .statistics_wrapper {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #D8D8D8;
+   margin-bottom: 20px;
+}
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .statistics_wrapper:last-child {
+   border-bottom:none;
+   margin-bottom: 0;
+}
+
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .statistics_wrapper  .left{
+    display: flex;
+    align-items:flex-start;
+}
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .statistics_wrapper  .left .name{
+   margin-left: 10px;
+}
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .statistics_wrapper  .left .name h2{
+  color: #191D23;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+#twinkle_smtp_analytics .report_right_wrapper .report_right_top .statistics_wrapper  .right .count h2{
+  color: #191D23;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+
+/* Start Email Log */
+
+#twinkle_smtp_email_logs{
+    position: relative;
+    transition: 0.5s;
+}
+
+#twinkle_smtp_main.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head .select_control{
+   margin-right: 10px;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head .select_control select {
+    padding: 5px 40px 5px 20px !important;
+    border-radius: 5px;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head .btn_filter {
+    margin-right: 40px;
+    padding: 9px 22px;
+    background-color: #316BFF;
+    cursor: pointer;
+    border: 1px solid  transparent;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head .btn_filter:hover {
+    background-color: #ffffff;
+    border: 1px solid #316BFF;
+    color: #316BFF;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head .delete_email_logs{
+   margin-right: 10px;
+   padding: 9px 22px;
+   background-color: #316BFF;
+   cursor: pointer;
+   border: 1px solid  transparent;
+   border-radius: 3px;
+   color: #ffffff;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head #reportrange {
+    background: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    width: 16%;
+    border-radius: 5px;
+}
+.twinkle_smtp_email_logs_wrapper .table-head #reportrange span {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.twinkle_smtp_email_logs_wrapper .table-head .delete_email_logs:hover{
+    background-color: #ffffff;
+    border: 1px solid #316BFF;
+    color: #316BFF;
+}
+
+.twinkle_smtp_btn_retry {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #020602;
+    padding: 5px 5px;
+    background: #FFDBDF;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid #d1d1d1;
+    width: 82px;
+    display: inline-block;
+}
+
+.twinkle_smtp_resend{
+    background: #b8f7c978;
+    border: 1px solid #d1d1d1;
+}
+
+.twinkle_smtp_btn_retry:hover {
+    background: green;
+    color: #ffff;
+    border: 1px solid green;
+}
+.twinkle_smtp_btn_retry_disabled{
+    background: green !important;
+    color: #ffff !important;
+    border: 1px solid green !important;
+    cursor: not-allowed;
+}
+
+.twinkle_smtp_btn_retry_disabled:hover{
+    background: green;
+    color: #ffff;
+    border: 1px solid green;
+    cursor: not-allowed;
+}
+
+.twinkle_smtp_btn_retry span {
+    margin-right: 2px;  
+}
+
+.twinkle_smtp_btn_view{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 5px;
+    background: #EEF3FE;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid #d1d1d1;
+    display: inline-block;
+}
+.twinkle_smtp_btn_view:hover {
+    background: #d1d1d16e;
+    border: 1px solid #c8cacd;
+}
+
+.twinkle_smtp_btn_view span{
+    color: #25C8F2;
+}
+
+.twinkle_smtp_btn_delete{
+    text-decoration: none;
+    padding: 5px 5px;
+    background: #FFDBDF;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid #d1d1d1;  
+}
+.twinkle_smtp_btn_delete:hover{
+    background: #ffdbdf9c;  
+}
+.twinkle_smtp_btn_delete:hover span{
+    color: #ff4a6288;   
+}
+.twinkle_smtp_btn_delete span{
+    color: #FF4A62; 
+}
+
+
+#twinkle_smtp_email_logs .btn-filter-disebled{
+    cursor: not-allowed;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+#twinkle_smtp_email_logs .btn-filter-disebled:hover {
+    cursor: not-allowed;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+
+
+#twinkle_smtp_email_logs table.dataTable thead th, table.dataTable thead td {  
+ border-bottom: 1px solid #c3c4c7; 
+}
+
+#twinkle_smtp_email_logs table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: 1px solid #c3c4c7;
+}
+
+#twinkle_smtp_email_logs .dataTables_wrapper .dataTables_filter {
+    margin-bottom: 20px;
+    position: absolute;
+    top: -76px;
+    right: 0;
+}
+
+
+#twinkle_smtp_email_logs .dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-left: 3px;
+}
+#twinkle_smtp_email_logs table.fixed {
+    table-layout: inherit;
+}
+#twinkle_smtp_email_logs table.dataTable tfoot th, 
+#twinkle_smtp_email_logs table.dataTable tfoot td,
+#twinkle_smtp_email_logs table.dataTable thead th, 
+#twinkle_smtp_email_logs table.dataTable thead td {
+    padding: 10px 11px; 
+}
+#twinkle_smtp_email_logs .widefat th input{
+    margin: 0 0 0 0px;
+}
+
+
+/* Start Modal */
+#twinkle_smtp_log_view {
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    width: 800px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#twinkle_smtp_log_view.active{
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+
+#twinkle_smtp_log_view .modal-content {
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #ffff;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#twinkle_smtp_log_view .modal-content .modal-header {
+    padding: 5px 15px;
+    border-bottom: 1px solid #3333;
+    background: #f1e8e8;
+    border-radius: 8px 8px 0px 0px;
+    position: relative;
+}
+
+#twinkle_smtp_log_view .modal-content .modal-header #cls_btn_container {
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    cursor: pointer;
+    color: red;
+}
+
+#twinkle_smtp_log_view .modal-content .modal-body {
+    padding: 5px 50px;
+    padding-bottom: 40px;
+}
+#twinkle_smtp_log_view .modal-content .modal-body ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #817c7c3b;
+}
+#twinkle_smtp_log_view .modal-content .modal-body ul li .single-item {
+  display: flex;
+  justify-items: baseline;
+}
+#twinkle_smtp_log_view .modal-content .modal-body ul li .single-item  .title{
+    font-size: 20px;
+    line-height: 7px;
+}
+#twinkle_smtp_log_view .modal-content .modal-body ul li .single-item  .content{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#twinkle_smtp_log_view .modal-content .modal-body .message .single-item  .title{
+    font-size: 20px;
+    line-height: 7px;
+}
+#twinkle_smtp_log_view .modal-content .modal-body .message .single-item  .content{
+    font-size: 16px;
+    font-weight: 400;
+}
+#twinkle_smtp_log_view .modal-content .modal-body .message .single-item  .html-content{
+    margin-top: 30px;
+}
+
+#twinkle_log_cls_btn span{
+    font-size: 30px;
+}
+
+
+/* Modal Popup */
+#twinkle_smtp_main .twinkleSmtp_popup {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #efeafede;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+}
+#twinkle_smtp_main .twinkleSmtp_popup_open{
+    position: absolute;
+    opacity: 1;
+    visibility: visible;
+}
+#twinkle_smtp_main .d_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#twinkle_smtp_main .successes_message p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6E32C9;
+    margin: 0;
+    line-height: 35px;
+}
+#twinkle_smtp_main .successes_message{
+    display: block;
+}
+#twinkle_smtp_main .twinkleSmtp_popup_inar{
+    position: absolute;
+    background: #D4C9F9;
+    padding: 40px 40px 40px 40px;
+    border-radius: 5px;
+    width: 350px;
+}
+#twinkle_smtp_main .successes_message p {
+    margin-bottom: 40px;
+}
+#twinkle_smtp_main  .successes_message a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 17px;
+    color: #000000;
+}
+#twinkle_smtp_main .successes_message a:hover {
+    color: #6E32C9;
+}
+#twinkle_smtp_main .successes_message a span {
+    margin-right: 10px;
+}
+#twinkle_smtp_main .twinkleSmtp_popup_inar .dashicons {
+    position: absolute;
+    top: 7px;
+    right: 19px;
+    font-size: 30px;
+    color: #6E32C9;
+    cursor: pointer;
+}
+#twinkle_smtp_main .twinkleSmtp-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+#twinkle_smtp_main .twinkleSmtp-btn-danger {
+    padding: 10px 30px;
+    background: #d70606;
+    border: 1px solid #d10808;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+#twinkle_smtp_main  .twinkleSmtp-btn-success {
+    padding: 10px 30px;
+    background: #2e9504;
+    border: 1px solid #389905;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#twinkle_smtp_main .twinkleSmtp-btn-danger:hover,
+#twinkle_smtp_main  .twinkleSmtp-btn-success:hover{
+    text-decoration: none;
+    background: #fff;
+    transition: 1s;
+    color: #333;
+}
+
+
+#twinkle_smtp_main .error{
+    font-size: 16px;
+    color: red;
+    margin-top: 6px;
+}
+
+.toast-top-right {
+    top: 40px !important;
+    right: 12px;
+}
+
+.twinkle_smtp_general_settings_content {
+    background-color: #F0F5FF;
+    padding: 17px 35px;
+    border-radius: 8px;
+    padding-bottom: 40px;
+}
+
+
+/* General Settings */
+#twinkle_smtp_general_settings_form{
+    margin-top: 65px;
+}
+
+.twinkle_smtp_general_settings_form_group{
+    display: flex;
+    align-items:center;
+    margin-bottom: 50px;
+}
+.general_settings_btn_group{
+    margin-top: 65px;
+}
+.twinkle_smtp_general_settings_form_group label{
+    margin-right: 20px;
+}
+
+.twinkle_smtp_general_settings_form_group .nice-select{
+    width: 200px;
+}
+.twinkle_smtp_general_settings_form_group .nice-select .option{
+    width: 134px;
+}
+
+.twinkle_smtp_general_settings_form_group .nice-select .option:hover{
+    background-color: #316BFF;
+    color: #fff;
+}
+.twinkle_smtp_general_settings_form_group .option.selected.focus:hover{
+    background-color: #316BFF;
+}
+
+.nice-select .list {
+    overflow-y: scroll;
+}
+
+.twinkle_smtp_switcher_wrapper .settings-label{
+    font-size: 16px;
+}
+.twinkle_smtp_switcher_wrapper .label-mr{
+   margin-right:20px;
+}
+
+.hide_delete_email_logs{
+    display: none;
+}
+
+.twinkle_smtp_general_settings_form_group .settings-label-analytics-report{
+    margin-right: 44px;
+}
+
+/* Start loader */
+.twinkle-smtp-btn-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+  }
+  .twinkle-smtp-btn-spinner div {
+    transform-origin: 5px 5px;
+    animation: twinkle-smtp-btn-spinner 1.2s linear infinite;
+  }
+  .twinkle-smtp-btn-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 17px;
+    width: 5px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+  .twinkle-smtp-btn-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+  }
+  .twinkle-smtp-btn-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+  }
+  @keyframes twinkle-smtp-btn-spinner {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .twinkle-smtp-loader-hide{
+      display: none;
+  }
+
+  .test_mail_submit_disabled{
+      background: #316bffc7;
+      border: 1px solid #316bffc7;
+      cursor: not-allowed;
+  }
+  .test_mail_submit_disabled:hover{
+      background: #316bffc7;
+      border: 1px solid #316bffc7;
+      cursor: not-allowed;
+  }
+
+
+#twinkle_smtp_single_log_headers .content, #twinkle_smtp_single_log_response .content {
+    margin-left: 40px;
+}
+
+#twinkle_smtp_single_log_headers .content p, #twinkle_smtp_single_log_response .content .response-item p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+#twinkle_smtp_single_log_headers .content .header-item, #twinkle_smtp_single_log_response .content .response-item{
+    margin-left: 30px;
+}
+
+.twinkle_smt_headers, .twinkle_smt_response{
+    margin-top: 40px;
+}
+
+#email_logs_datatable_wrapper div#email_logs_datatable_paginate {
+    margin-top: 20px;
+}
+
+#email_logs_datatable_wrapper .dataTables_info {
+   display: none;
+}
+
+
+.twinkle_smtp_form_group .nice-select {
+    width: 100%;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDCEF1;
+    border-radius: 8px;
+    height: 48px;
+    padding-top: 3px;
+}
+.twinkle_smtp_form_group .nice-select .list {
+    width: 100%;
+    height: 300px;
+}
+
+.twinkle_smtp_form_group  .nice-select .option:hover {
+    background-color: #316BFF;
+    color: #fff;
+}
+
+.twinkle_smtp_form_group  .option.selected.focus:hover {
+    background-color: #316BFF;
+}
+
+.twinkle_smtp_form_group_extra_margin{
+    margin-top: 120px;
+}
